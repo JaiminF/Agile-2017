@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US" style="background-color:#212121;">
+    <head>
+
+        <meta charset="utf-8">
+        <title>AGILE-2017</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+        <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
+</head>
+
+<body>
+  <section>
+<div class="container">
+          <h4 id="typed" class="header light center white-text"><span class="typed-in"></span></h4>
+</div>
+  <style>
+  .align{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  }
+
+  #typed {
+      left: 0;
+      line-height: 200px;
+      margin: auto;
+      margin-top: -100px;
+      position: absolute;
+      top: 60%;
+      width: 100%;
+
+  }
+  .valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .valign-wrapper .valign {
+    display: block;
+  }
+  #typed{
+    font-size: 50px;
+    font-family: Roboto;
+    color: #fff;
+  }
+  @media only screen and (max-width: 768px) {
+    #typed{
+      font-size: 35px;
+      font-family: Roboto;
+      color: #fff;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    #typed{
+      font-size: 18px;
+      font-family: Roboto;
+      color: #fff;
+    }
+  }
+
+  .blink{
+    font-size: 30px;
+    font-family: Roboto;
+    color: #ff0000;
+  }
+  @media only screen and (max-width: 768px) {
+    .blink{
+      font-size: 25px;
+      font-family: Roboto;
+      color: #ff0000;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .blink{
+      font-size: 15px;
+      font-family: Roboto;
+      color: #ff0000;
+    }
+  }
+</style>
+</section>
+
+</body>
+<script src="js/typed.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/init.js"></script>
+<script>
+$(function(){
+        $(".typed-in").typed({
+            strings: ["INTERNATIONAL CERTIFIED AGILE NINJA.", "REQUIREMENTS.", "PLAN.", "DESIGN.", "DEVELOP.", "RELEASE.","TRACK AND MONITOR."],
+            typeSpeed: 0,
+          backDelay: 1000,
+          loop: true
+        });
+    });
+</script>
+</html>
